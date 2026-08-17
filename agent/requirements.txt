@@ -1,0 +1,7 @@
+# Receiver (host side)
+flask>=3.0
+
+# Agent (device side). On Ubuntu Server, prefer the distro package so the agent
+# has no pip dependency on a device that may have no general internet egress:
+#   sudo apt install -y python3-requests
+requests>=2.31

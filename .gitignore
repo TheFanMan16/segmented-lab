@@ -1,0 +1,21 @@
+# Certificates and private keys — generated locally by provisioning/make-certs.sh.
+# Never commit these, even from a throwaway lab CA.
+*.key
+*.crt
+*.csr
+*.srl
+*.pem
+
+# Agent spool files (Day 6 backlog)
+*.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
